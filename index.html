@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+  <body>
+      <div id='app' class='center' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='headertop'>Guessing game!</h1>
+          <h3 id='headerbot'>Guess a number between 1 - 100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='parent-input' placeholder="#" autofocus=autofocus maxlength=3 class='center'></input>
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='glist'>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+              <Button id='reset' type='button' class='btn btn-warning'>Reset</Button>
+              <button id='hint' class='btn btn-info'>Hint</button>
+            <!-- reset and hint buttons -->
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center' class="container">
+        <div class='row'>
+          <div class='col-md-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-md-4'>
+            <h4>Project by Matthew Contract</h4>
+          </div>
+
+          <div class='col-md-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/GuessingGame.js"></script>
+  </body>
+</html>

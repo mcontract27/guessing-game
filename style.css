@@ -1,0 +1,74 @@
+.center {
+    text-align: center;
+}
+.guess {
+    display:inline;
+    padding:0 25px;
+    font-size: 60px;
+    border: 1px solid black;
+    border-radius:10%;
+    background-color: white;
+}
+html {
+    box-sizing: 'border-box';
+    height:100%;
+}
+body{
+    background-image: url(windows.jpg);
+    height: 100%;
+}
+
+#app{
+    background-color: rgba(256,256,256,0.5);
+    height: 100%;
+}
+
+#headers{
+    padding-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+#input-parent{
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+#parent-input {
+    width: 160px;
+    height: 160px;
+    outline: none;
+    font-size:60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#submit{
+    border-radius:50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top:110px;
+    left:110px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
